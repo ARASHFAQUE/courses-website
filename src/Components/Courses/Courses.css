@@ -1,0 +1,33 @@
+.all-courses{
+    float: left;
+}
+.single-courses{
+    border: 2px solid black;
+    width: 280px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.single-courses:hover{
+    background-color: rgb(218, 216, 216);
+}
+.course-detail{
+    height: 70%;
+}
+.enroll-button{
+    background-color: #ec5252;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.enroll-button:hover{
+    background-color: #e61b1b;
+}
